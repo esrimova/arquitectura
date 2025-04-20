@@ -9,6 +9,8 @@ class Producto extends Model
 {
     use HasFactory;
 
+    protected $dates = ['fecha_vencimiento'];
+
     protected $fillable = [
         'nombre',
         'codigo',
